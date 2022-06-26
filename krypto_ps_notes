@@ -1,0 +1,74 @@
+# KryptoPS Slides
+
+
+![[Screenshot 2022-06-24 at 15.28.27.png]]
+![[Screenshot 2022-06-24 at 15.29.32.png]]
+![[]]
+
+![[Screenshot 2022-06-26 at 08.36.40.png]]
+
+![[Screenshot 2022-06-26 at 08.36.31.png]]
+
+
+![[Screenshot 2022-06-26 at 08.37.17 1.png]]
+
+
+
+#### Biometry Cryptosystems Zusammenfassung:
+- Es werden generell biologische Merkmale hergenommen (Fingerabdruck, Iris, Gesicht, Stimme, Ohr etc.) um einen kryptografischen Schlüssel zu erzeugen
+- Einen Kryptografischen Schlüssel zu sichern / freizugeben
+- Fuzziness beschreibt die Tatsache, dass z.B bei einem Fingerabdruck Scan unterschiede auftreten können bei ein und der gleichen Person, da der Winkel wie gescannt wird schon zu Fehlern führen könnte 
+- Reihenfolge Blob: Schlüssel X wird erzeugt, Fingerabdruck C wird erzeugt und C * X = Y Blob (binary large object)
+- Reihenfolge Abgleich: Fingerabdruck C wird dem System gezeigt, bei Uebereinstimmung wird Schluessel X freigegeben. 
+- Commitment Schema ist besonders sicher, da Erraten nicht möglich (binding) und freigabe ohne richtigen Fingerabdruck nicht möglich (concealing).
+- Unschärfen beim Scan werden mit Error Correcting Codes durchgeführt, hierzu wird unter anderem der Hamming Code verwendet
+-----
+
+
+---
+DDoS Attacks
+![[Screenshot 2022-06-24 at 15.39.29.png]]
+
+
+![[Screenshot 2022-06-24 at 15.40.04.png]]
+
+
+### Zusammenfassung DOS / DDoS / Botnetze:
+- DOS: Denial of Service, ausführung durch ein einzelnes Gerät, Ziel ist die Ueberlastung des Internetdienstes
+- Kann durch IT Vandalismus entstehen, Ueberlastung des Systems oder als Ablenkungsmanoever um eine andere Attacke durchzufuehren.
+
+- DDoS: Distributed Denial of Service, wird nun von mehreren Geräten ausgeführt anstatt von einem wie bei DOS
+- Sehr effektiv, kann große Internetdienste Ueberlasten
+
+Arten von Attacken:
+
+- SYN Flood: Sendet Synchronize Paket, normalerweise wird dann ein ACK acknowledge Paket versendet.
+- Normalerweise wird dann mit ACK geantwortet und die Verbindung steht, passiert dies nicht, führt das zu einer Ueberbelastung, da ohne ACK Antwort ein Netzwerkstack offen bleibt, zu viele davon fuehren zu einer Ueberbelastung, also einem DOS.
+
+Weitere Arten:
+- DDoS, UDP Flood, HTTP Flood, Smurf Attack, Ping of Death, 
+
+
+
+
+
+![[Screenshot 2022-06-24 at 15.40.11.png]]![[]]![[Screenshot 2022-06-24 at 17.31.42.png]]
+
+
+
+
+
+
+![[Screenshot 2022-06-24 at 17.31.10.png]]
+
+![[Screenshot 2022-06-24 at 17.28.37.png]]
+
+![[Screenshot 2022-06-24 at 17.28.32.png]]
+
+![[Screenshot 2022-06-24 at 17.28.27.png]]
+
+![[Screenshot 2022-06-24 at 17.28.14.png]]
+
+![[Screenshot 2022-06-24 at 17.28.09.png]]
+
+![[Screenshot 2022-06-24 at 17.28.04.png]]
